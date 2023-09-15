@@ -1,8 +1,8 @@
 {
-  
+  "homepage":"https://dalibouali.github.io/portfolio",
   "name": "developerfolio",
   "version": "0.1.0",
-  "homepage":"https://dalibouali.github.io/portfolio",
+  
   "private": true,
   "dependencies": {
     "colorthief": "^2.2.0",
