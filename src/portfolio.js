@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Dali Bouali",
+  title: "Hi all, I'm Mohamed Ali",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Java / Spring / SpringBoot /Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dalibouali/",
+  linkedin: "https://www.linkedin.com/in/mohamed-ali-bouali-969bba209/",
+  gmail: "boualimohamed77@gmail.com",
+  gitlab: "https://gitlab.com/dalibouali",
+  facebook: "https://www.facebook.com/mohamed.bouali.7545",
+
+  stackoverflow: "https://stackoverflow.com/users/22437515/mohamed-ali-bouali",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Experienced full-stack developer proficient in Spring Boot and Angular "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Specializing in backend development to deliver robust and maintainable websites, with a keen eye for crafting dynamic front-end interfaces for web and mobile applications. "
+    ),
+
+    emoji(
+      "⚡ Expertise in building Progressive Web Applications (PWAs) and Single Page Applications (SPAs) across diverse technology stacks."
+    ),
+    emoji(
+      "⚡ Working towards mastering the integration of third-party services like Firebase, AWS"
+    ),
+    emoji(
+      "⚡ Supported by a strong foundation in Docker,Jenkins and a commitment to continuous learning and adopting new technologies."
     )
   ],
 
@@ -77,27 +86,53 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {skillName: "java ", fontAwesomeClassname: "fab fa-java"},
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
+
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
       skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "No-sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -126,23 +161,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Tek-Up University",
+      logo: require("./assets/images/tekup.png"),
+      subHeader: "Engineering degree in Computer Science",
+      duration: "September 2020 - September 2023",
+      desc: " completed three years of the engineering cycle with consistent success",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "First year: Dedicated to acquiring a foundational understanding of the field.",
+        "Two years: Specialized study in software engineering."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Faculty of Science Tunisia",
+      logo: require("./assets/images/fst.jpg"),
+      subHeader: "Preparatory cycle in maths and physics",
+      duration: "September 2018 - July 2020",
+      desc: "Admitted to the national entrance exam for engineering schools.",
+      descBullets: ["Strong education foundation", "Career goals clarified"]
     }
   ]
 };
@@ -153,16 +188,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +209,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "SaaD",
+      companylogo: require("./assets/images/saad.png"),
+      date: "Februray 2023 – July 2023",
+      desc: "End of Study Graduation Project : Design and Development of a web-based tax declaration application.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Digitalization of the declaration process for accountants.",
+        " Technologies used: Spring Boot, Angular, Docker, RabbitMQ, WebSocket"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Rhis Software",
+      companylogo: require("./assets/images/rhis.jpg"),
+      date: "juin 2022 – August 2022",
+      desc: "Summer internship : providing single sign on solution for a web based application",
+      descBullets: [
+        "Implement a user-friendly login mechanism to enhance the security of a web application..",
+        " Technologies used: Spring Boot, Angular, Keycloak"
+      ]
     }
   ]
 };
@@ -213,27 +246,29 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Acdemic projects and End of Study graduatio project",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/impotenligne.png"),
+      projectName: "ImpotEnLigne",
+      projectDesc:
+        "Web application for the digitalization of the tax return process.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "See Demo",
+          url: "https://drive.google.com/file/d/1xyc8O1kTvPZ5T0JbV2Td5XQN7_w3d7Yj/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/stagi.png"),
+      projectName: "Stagi",
+      projectDesc:
+        "Stagi is a platform where students can find internships opportunities",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "See Demo",
           url: "http://nextu.se/"
         }
       ]
@@ -252,50 +287,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Java 8 Associate OCA",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Second certification in an object oriented programming language.",
+      image: require("./assets/images/java.png"),
+      imageAlt: "Java 8 Associate OCA Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=AFA94075545F831F1A8A64906A99A813D776EF74786D061302C0F249D66621CB"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Python Associate PCAP",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Passing Python PCAP certification as a very first iT certification .",
+      image: require("./assets/images/python.png"),
+      imageAlt: "Python PCAP certification",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1HvPid_28gOnSyndRIBpQGktaXRrCBJyQ/view"
         }
       ]
     }
@@ -362,9 +375,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to reach out if you want to discuss a project or simply want to say hello. My inbox is open for everyone!",
+  number: " + 42 160 8367914",
+  email_address: "boualimohamed77@gmail.com"
 };
 
 // Twitter Section
@@ -374,7 +387,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

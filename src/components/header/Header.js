@@ -12,6 +12,7 @@ import {
   talkSection,
   achievementSection
 } from "../../portfolio";
+import Contact from "../../containers/contact/Contact";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -21,6 +22,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+
 
   return (
     <Headroom>
@@ -59,16 +61,7 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
+          
           <li>
             <a href="#contact">Contact Me</a>
           </li>

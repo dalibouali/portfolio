@@ -12,7 +12,31 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-
+  function openPopup(url, width, height) {
+    if (!url) {
+      return;
+    }
+    
+    // Define the dimensions of the popup window (width and height).
+    width = width || 600; // You can set default values here.
+    height = height || 400;
+  
+    // Calculate the center position of the screen.
+    var left = (window.innerWidth - width) / 2;
+    var top = (window.innerHeight - height) / 2;
+  
+    // Open the popup window with specified dimensions and position.
+    var win = window.open(
+      url,
+      "_blank",
+      "width=" + width + ",height=" + height + ",left=" + left + ",top=" + top
+    );
+  
+    // Focus on the popup window.
+    if (win) {
+      win.focus();
+    }
+  }
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -74,7 +98,7 @@ export default function StartupProject() {
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
-                              onClick={() => openUrlInNewTab(link.url)}
+                              onClick={() => openPopup(link.url,600,600)}
                             >
                               {link.name}
                             </span>
