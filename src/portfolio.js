@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/dalibouali/",
-  linkedin: "https://www.linkedin.com/in/mohamed-ali-bouali-969bba209/",
+  linkedin: "https://www.linkedin.com/in/mohamed-ali-bouali/",
   gmail: "boualimohamed77@gmail.com",
   gitlab: "https://gitlab.com/dalibouali",
   facebook: "https://www.facebook.com/mohamed.bouali.7545",
